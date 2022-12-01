@@ -44,10 +44,10 @@ addEventListener('keydown', (event) => {
     }
   });
 });
-//
-// function makeFontLarge () {
-//
-// }
+
+function makeFontLarge () {
+
+}
 
 </script>
 
