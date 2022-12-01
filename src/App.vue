@@ -1,13 +1,13 @@
 <script setup>
 import * as Tone from 'tone';
 
-const letterH = '/src/assets/h.mp3';
-const letterE = '/src/assets/e.mp3';
-const letterL = '/src/assets/l.mp3';
-const letterO = '/src/assets/o.mp3';
-const letterW = '/src/assets/w.mp3';
-const letterR = '/src/assets/r.mp3';
-const letterD = '/src/assets/d.mp3';
+const letterH = 'h.mp3';
+const letterE = 'e.mp3';
+const letterL = 'l.mp3';
+const letterO = 'o.mp3';
+const letterW = 'w.mp3';
+const letterR = 'r.mp3';
+const letterD = 'd.mp3';
 let playerH = new Tone.Player(letterH).toDestination();
 let playerE = new Tone.Player(letterE).toDestination();
 let playerL = new Tone.Player(letterL).toDestination();
